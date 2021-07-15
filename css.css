@@ -37,7 +37,8 @@ nav {
 
 nav .logo {
   width: 25%;
-  text-align: center;
+   /*text-align: center;*/
+ margin-left: -200px;
   /*background: red;*/
 }
 

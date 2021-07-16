@@ -154,23 +154,20 @@ section .btntwo {
   background: black;
   color: white;
 }
-@keyframes changetext {
-  0% {
-    content: "Darjeeling";
-  }
-  20% {
-    content: "Agra";
-  }
-  35% {
-    content: "Jaipur";
-  }
-  60% {
-    content: "kerala";
-  }
-  80% {
-    content: "delhi";
-  }
-  100% {
-    content: "Mumbai";
-  }
+.fa {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.div fa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

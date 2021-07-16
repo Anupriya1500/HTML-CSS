@@ -55,8 +55,25 @@ nav .menu a {
   font-weight: bold;
 }
 
+.menu a:hover{
+  color: orange;
+}
+
+
+.menu > a .abt{
+color: red;
+}
+
+
 nav .menu a:first-child {
-  color: #00b894;
+  color: orange;
+}
+nav .menu a:first-child:hover{
+  color: green;
+}
+
+nav .menu a .abt{
+  color: green;
 }
 
 main {

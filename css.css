@@ -107,14 +107,6 @@ section h2 {
     margin-left: 100px;
 }
 
-section h1 {
-  margin: 30px 0 20px 0;
-  font-size: 55px;
-  font-weight: 700;
-  text-shadow: 2px 1px 5px black;
-  text-transform: uppercase;
-}
-
 section p {
   font-size: 25px;
   word-spacing: 2px;
@@ -169,21 +161,22 @@ section .btntwo {
   padding: 1em;
   display: flex;
   justify-content: space-around;
-
   align-items: center;
-  background: black;
+ background: black;
   color: white;
 }
-.icons{
-  align-items: left;
+
+.button:hover{
+  cursor: pointer;
 }
+
 .fa{
   text-decoration: none;
   width: 40%;
   display: flex;
-  justify-content: space-around;
+ justify-content: space-around;
   color: white;
-  align-items: center;
+ 
   padding: 10px;
   font-size: 30px;
   width: 30px;
@@ -191,12 +184,9 @@ section .btntwo {
   border-radius: 50%;
 }
 
-.footer a{
-  display: flex;
-    justify-content: space-between;
-
-float: left;
-
+.fa:hover{
+  transform: scale(1.5);
+  color: rebeccapurple;
 }
 
 @media screen and (max-width: 600px) {
@@ -238,7 +228,22 @@ float: left;
     background-size: 100% 100%;
     width: 100%;
   }
- 
+
+  .fa{
+    transform: scale(0.5);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa:hover{
+    transform: scale(1);
+  }
+  .title{
+    transform: scale(0.75);
+  }
+ .icons {
+    display: flex;
+  }
 .logo{
 
     display: flex ;
@@ -256,23 +261,5 @@ float: left;
     overflow: hidden;
   }
 
+
 }
-/*
-
-.logo{
-
-    display: flex ;
-    position: sticky;
-    width: 25%;
-
- margin-left: -10px;
-
-  }
-
-  .log{
-    margin-left: 10px;
-    display: flex ;
-    justify-content: space-between;
-    overflow: hidden;
-  }
-*/

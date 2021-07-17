@@ -38,7 +38,7 @@ nav {
 .logo {
   width: 25%;
    /*text-align: center;*/
- margin-left: -150px;
+ margin-left: -200px;
   /*background: red;*/
 }
 
@@ -220,7 +220,7 @@ float: left;
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .menu {position: relative;}
   .menu a.icon {
     position: absolute;
@@ -238,28 +238,41 @@ float: left;
     background-size: 100% 100%;
     width: 100%;
   }
-  .logo{
+ 
+.logo{
 
     display: flex ;
     position: sticky;
-  width: 25%;
+    width: 25%;
 
  margin-left: -10px;
 
-  }
-
+  } 
+  
   .log{
- 
     margin-left: 10px;
     display: flex ;
     justify-content: space-between;
     overflow: hidden;
   }
 
-  main section .btnone{
-justify-content: space-between;
-  }
-  main section .btntwo{
-   justify-content: space-between;
-  }
 }
+/*
+
+.logo{
+
+    display: flex ;
+    position: sticky;
+    width: 25%;
+
+ margin-left: -10px;
+
+  }
+
+  .log{
+    margin-left: 10px;
+    display: flex ;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+*/

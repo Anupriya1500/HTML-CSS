@@ -1,0 +1,32 @@
+*{
+	background-color: skyblue;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.buttons button{
+	background-color: yellow;
+	border: 2px solid black;
+	color: darkred;
+	cursor: pointer;
+	float: left;
+	display: flex;
+	height: 60px;
+	width: 150px;
+	padding: 20px 42px;
+
+	
+}
+.buttons button:hover{
+	background-color: lightcyan;
+	color: black;
+	transform: scale(1.1);
+	border: 2px solid black;
+
+}
+
+.tabs{
+	margin-top: 10%;
+	margin-left: 38%;
+}
+

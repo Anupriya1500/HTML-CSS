@@ -42,7 +42,7 @@ body {
 }
 
 
-.item {
+.item{
 	box-sizing: border-box;
   display: flex;
   justify-content: space-around;
@@ -99,10 +99,9 @@ div .btn{
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .content, .listings,.item,.sub-item,.s1{
-  flex: 100%;
-  flex-direction: column;
-
-  }
+  .listings{width: 100%;}
+  .item{width: 100%;}
+  .sub-item{width: 100%;}
+.content{flex-direction: column;}
 }
 

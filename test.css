@@ -1,36 +1,44 @@
+
 *{
 	font-style: bold;
 	font color: black;
-	h1{
-		font-family: "roboto";
-		display: flex;
-	}
-	  box-sizing: border-box;
+
+	 box-sizing: border-box;
 }
 body {
 	box-sizing: border-box;
- 
   margin: 0;
   font-family: Arial;
 }
 
-.text { color: black; }
+.text { 
+	color: black;
+	font-weight: bolder;
+	font-family: "roboto",sans-serif;
+	font
+	justify-content: center;
+	}
 
 .wrapper {
-  display: flex;
+  
   justify-content: center;
+  /*background-color: red;*/
+
 }
 
 .content {
+	/*background-color: yellow;*/
 	box-sizing: border-box;
-	float: left;
+	display: flex;	
+	padding: 0.5em 0.5em;
+	margin: 50px;
 }
 
 .listings {
+  /*background-color: brown;*/
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  margin: 0 30px;
+  margin: 10px 20px;
+  width: 33.33%;
 }
 
 
@@ -39,12 +47,11 @@ body {
   display: flex;
   justify-content: space-around;
   float: left;
-  width: 30%;
-  padding: 30px;
-  padding-left: 1px;
-  padding-right:1px ;
+  width: 90%;
+  padding: 10px 10px;
+ 
   margin: 0.5em;
-  height: 1200px;
+  height: 800px;
   background-color: orange;
   border: 1px solid black;
   margin: 15px;
@@ -52,33 +59,37 @@ body {
 
 .sub-item{
 	box-sizing: border-box;
-	 float: left;
+	float: left;
+	justify-content: space-between;
 	background-color: #00ffff;
 	height: auto;
-	padding: 50px;
-	width:50%;
+	padding: 20px;
+	margin: 5px;
+	width:80%;
 }
 
-.buttons{
-	position: relative;
-		float: right;
-	text-align: center;
+.button{
+	overflow: hidden;
+	position: sticky;
+	bottom: 0px;
+padding: 0px 40px;
 }
-.buttons button{
-		position: sticky;
+
+div .btn{
+	position: relative;
+	text-decoration: none;
 	background-color: green;
+	color: white;
 	border: 2px solid black;
-	color: darkred;
 	cursor: pointer;
-	float: left;
+	float: right;
 	display: flex;
 	height: 40px;
 	width: 150px;
 	padding: 10px 30px;
-	text-align: center;
-	
+
 }
-.buttons button:hover{
+.btn:hover{
 	background-color: orange;
 	color: black;
 	transform: scale(1.1);
@@ -88,9 +99,10 @@ body {
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .content, .listings, .items{
-  	flex: 100%;
+  .content, .listings,.item,.sub-item,.s1{
+  flex: 100%;
+  flex-direction: column;
+
   }
 }
-
 

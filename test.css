@@ -105,12 +105,4 @@ div .btn{
 .content{flex-direction: column;}
 }
 
-@media (max-width: 480px) {
-  .listings{width: 100%;}
-  .item{width: auto;}
-  .sub-item{width: auto;}
-.content{flex-direction: column;}
-}
-
-
 

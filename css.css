@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+
 }
 .log{
   position: absolute;
@@ -61,11 +62,14 @@ nav .menu a {
   color: orange;
 }
 
-
-.menu > a .abt{
-color: red;
+.abt:link {
+  color: maroon;
+  text-decoration: none;
 }
 
+.abt:hover{
+  color: red;
+}
 
 nav .menu a:first-child {
   color: orange;

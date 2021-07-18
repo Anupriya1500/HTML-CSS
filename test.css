@@ -1,0 +1,112 @@
+*{
+	font-style: bold;
+	font color: black;
+	h1{
+		font-family: "roboto";
+		display: flex;
+	}
+	  box-sizing: border-box;
+}
+body {
+	box-sizing: border-box;
+  background-color: green;
+  margin: 0;
+  font-family: Arial;
+}
+
+.text { color: black; }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+	box-sizing: border-box;
+	display: felx;
+	float: left;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: yellow;
+  width: 100%;
+}
+
+.listings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+
+.item {;
+  display: flex;
+  justify-content: space-around;
+box-sizing: border-box;
+  width: 30%;
+  padding: 0.5em;
+  margin: 0.5em;
+  height: 1200px;
+  background-color: lightblue;
+  border: 1px solid black;
+  margin: 15px;
+} 
+
+.sub-item{
+	box-sizing: border-box;
+    padding: 0.5em;
+	background-color: blue;
+	height: 50%;
+	width:50%;
+}
+
+.buttons{
+	float: right;
+	position: sticky;
+}
+.buttons button{
+	background-color: green;
+	border: 2px solid black;
+	color: darkred;
+	cursor: pointer;
+	float: left;
+	display: flex;
+	height: 60px;
+	width: 150px;
+	padding: 20px 42px;
+
+	
+}
+.buttons button:hover{
+	background-color: lightcyan;
+	color: black;
+	transform: scale(1.1);
+	border: 2px solid black;
+
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 768px) {
+  .content, .listings, .items{
+  	flex: 100%;
+  }
+}
+
+
+/*
+.flex-container{
+	display: flex;
+  background-color: DodgerBlue;
+  justify-content: space-between;
+}
+.flex-container > div {
+  background-color: darkcyan;
+  height: 1200px;
+  widows: 33.33%;
+  margin: 10px;
+  padding: 0.5em;
+  font-size: 30px;
+}
+.subdiv{
+	display: flex;
+	color: red;
+}*/

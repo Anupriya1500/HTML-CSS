@@ -99,17 +99,11 @@ div .btn{
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 768px) {
-  .listings{width: 100%;height: 500px;}
-  .item{width: 100%;height: 500px;}
-  .sub-item{width: 100%;height: 470px;}
+  .listings{width: 100%;}
+  .item{width: 100%;}
+  .sub-item{width: 100%;}
 .content{flex-direction: column;}
 }
 
-@media (max-width: 480px) {
-  .listings{width: 100%;height: 400px%;}
-  .item{width: 100%;height: 400px;}
-  .sub-item{width: 100%;height: 370px;}
-.content{flex-direction: column;}
-}
 
 
